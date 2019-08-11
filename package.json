@@ -5,6 +5,8 @@
   "main": "index.js",
   "repository": "https://github.com/wesbaker/alfred-dndbeyond-workflow",
   "scripts": {
+    "postinstall": "alfy-init",
+    "preuninstall": "alfy-cleanup",
     "test": "eslint *.js"
   },
   "author": {
