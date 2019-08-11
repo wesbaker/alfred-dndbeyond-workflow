@@ -1,5 +1,4 @@
 const alfy = require("alfy");
-const querystring = require("querystring");
 
 alfy
   .fetch("https://www.dndbeyond.com/es/term", {
